@@ -532,6 +532,105 @@ main { padding-top: 56px; }
   background: rgba(198, 161, 91, 0.08);
 }
 
+/* ---------- Process / technique showcase (施術工程・技術内容) ---------- */
+.process-section {
+  --process-line: rgba(122, 46, 56, 0.16);
+  --process-tint: #f4e9e4;
+}
+.process-lead-copy {
+  max-width: 620px;
+  margin: 0 auto 8px;
+  text-align: center;
+}
+.process-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+.process-step {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 36px 0;
+  border-bottom: 1px solid var(--process-line);
+}
+.process-step:last-child { border-bottom: none; }
+@media (min-width: 769px) {
+  .process-step {
+    flex-direction: row;
+    align-items: center;
+    gap: 52px;
+    padding: 48px 0;
+  }
+  .process-step:nth-of-type(even) { flex-direction: row-reverse; }
+}
+.process-step__media,
+.process-step__text {
+  flex: 1 1 0;
+  min-width: 0;
+  width: 100%;
+}
+.process-step__num {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 0.78rem;
+  letter-spacing: 0.2em;
+  color: var(--color-gold-deep);
+  margin: 0 0 10px;
+}
+.process-step__title {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: clamp(1.1rem, 3.2vw, 1.3rem);
+  color: var(--color-ink);
+  margin: 0 0 14px;
+}
+.process-step__desc {
+  font-size: 0.9rem;
+  line-height: 1.9;
+  color: var(--color-ink-soft);
+  margin: 0;
+}
+.process-gallery {
+  display: grid;
+  align-items: start;
+  gap: 8px;
+}
+.process-gallery img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  display: block;
+  border-radius: 2px;
+  border: 1px solid var(--process-tint);
+  background: var(--process-tint);
+}
+.process-gallery--pair,
+.process-gallery--quad,
+.process-gallery--main,
+.process-gallery--wide {
+  grid-template-columns: repeat(2, 1fr);
+}
+.process-gallery--main img:first-child {
+  grid-column: 1 / -1;
+  aspect-ratio: 5 / 3;
+}
+@media (min-width: 640px) {
+  .process-gallery--wide { grid-template-columns: repeat(3, 1fr); }
+}
+.process-closing {
+  margin: 48px auto 0;
+  max-width: 560px;
+  text-align: center;
+}
+.process-closing__text {
+  font-family: var(--font-serif);
+  font-size: clamp(1.05rem, 3vw, 1.25rem);
+  line-height: 2;
+  color: var(--color-ink);
+  margin: 0 0 28px;
+}
+
 /* ---------- STEP course sections ---------- */
 .step-head {
   display: flex;
