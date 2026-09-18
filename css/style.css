@@ -952,10 +952,24 @@ main { padding-top: 56px; }
     gap: 48px;
   }
 }
-.overseas__photo-frame {
+.overseas__photos {
   width: 88%;
-  aspect-ratio: 4 / 3;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+@media (min-width: 769px) {
+  .overseas__photos {
+    width: auto;
+    margin: 0;
+    flex: 0 0 45%;
+    flex-direction: row;
+    gap: 16px;
+  }
+}
+.overseas__photo-frame {
+  aspect-ratio: 1 / 1;
   border: 1px solid rgba(198, 161, 91, 0.4);
   overflow: hidden;
   display: flex;
@@ -965,10 +979,7 @@ main { padding-top: 56px; }
 }
 @media (min-width: 769px) {
   .overseas__photo-frame {
-    width: auto;
-    aspect-ratio: 4 / 3;
-    margin: 0;
-    flex: 0 0 45%;
+    flex: 1 1 50%;
   }
 }
 .overseas__photo {
@@ -977,13 +988,8 @@ main { padding-top: 56px; }
   object-fit: cover;
   display: block;
 }
-.overseas__photo-placeholder {
-  padding: 0 24px;
-  text-align: center;
-  font-size: 0.76rem;
-  line-height: 1.9;
-  letter-spacing: 0.04em;
-  color: rgba(246, 241, 231, 0.5);
+.overseas__photo--contain {
+  object-fit: contain;
 }
 .overseas__body {
   display: flex;
@@ -993,23 +999,19 @@ main { padding-top: 56px; }
 .overseas__body .section__text {
   margin: 0;
 }
-.overseas__note {
-  margin: 0;
-  padding-top: 14px;
-  border-top: 1px solid rgba(198, 161, 91, 0.25);
+.overseas__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
-.overseas__note-label {
+.overseas__tag {
   font-size: 0.76rem;
-  letter-spacing: 0.06em;
-  color: var(--color-gold);
-  margin: 0 0 6px;
-}
-.overseas__note-names {
-  font-size: 0.85rem;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.04em;
   color: var(--color-gold-light);
-  line-height: 1.7;
-  margin: 0;
+  border: 1px solid rgba(198, 161, 91, 0.45);
+  border-radius: 999px;
+  padding: 6px 16px;
+  background: rgba(198, 161, 91, 0.08);
 }
 
 /* ---------- FAQ ---------- */
