@@ -195,7 +195,8 @@ main { padding-top: 56px; }
 }
 .section--ivory .section__title { color: var(--color-ink); }
 @media (max-width: 768px) {
-  #overseas-title {
+  #overseas-title,
+  #step-guide-title {
     font-size: clamp(1.15rem, 5.2vw, 1.375rem);
     letter-spacing: 0.01em;
     line-height: 1.55;
@@ -819,6 +820,20 @@ main { padding-top: 56px; }
   font-size: 0.74rem;
   color: var(--color-ink-soft);
 }
+.step-price-card__fit {
+  margin: 0;
+  width: 100%;
+  font-size: 0.78rem;
+  line-height: 1.75;
+  color: var(--color-ink-soft);
+}
+.step-price-card__fit-label {
+  display: block;
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  color: var(--color-gold-deep);
+  margin-bottom: 4px;
+}
 
 /* ---------- Price table (共通/受講料まとめ) ---------- */
 .price-includes {
@@ -1067,6 +1082,22 @@ main { padding-top: 56px; }
   align-items: center;
   text-align: center;
   gap: 18px;
+}
+
+/* ---------- STEP guide CTA (受講料セクション直後) ---------- */
+.step-guide-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.step-guide-cta .section__title {
+  margin: 0;
+}
+.step-guide-cta .section__lead {
+  max-width: 780px;
+  margin: 0;
 }
 .mid-cta__lead {
   font-family: var(--font-serif);
