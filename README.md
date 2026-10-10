@@ -30,6 +30,12 @@ URLを変更する場合は `js/config.js` の値のみを書き換えてくだ�
 
 写真を変更する場合は、上記ファイルの差し替え、または `<img>` タグの `src` / `alt` を書き換えてください。
 
+## OGP（SNSシェア）画像について
+
+- `assets/ogp/ogp-facial-vinophis-lesson.jpg`（1200×630）
+- 施術工程写真 `assets/facial/process/facial-07-vinophis-massage-04.webp` を横長に切り出してJPG化したもの（文字入れ・加工なし）
+- 差し替える場合は同じファイル名で上書きするか、`index.html` の `og:image` / `twitter:image` を書き換えてください
+
 ## ローカル確認
 
 ```
