@@ -18,7 +18,7 @@
  */
 window.SITE_CONFIG = {
   applyUrl: "https://line.me/R/oaMessage/%40161uzomr/?%E3%83%95%E3%82%A7%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AB%E8%AC%9B%E7%BF%92%E5%8F%97%E8%AC%9B%E5%B8%8C%E6%9C%9B",
-  consultUrl: "https://line.me/R/oaMessage/%40161uzomr/?%E3%83%95%E3%82%A7%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AB%E8%AC%9B%E7%BF%92%E7%9B%B8%E8%AB%87%E5%B8%8C%E6%9C%9B",
+  consultUrl: "https://line.me/R/oaMessage/%40161uzomr/?%E3%83%95%E3%82%A7%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AB%E8%AC%9B%E7%BF%92%E5%80%8B%E5%88%A5%E7%9B%B8%E8%AB%87%E5%B8%8C%E6%9C%9B",
   step1Url: "https://line.me/R/oaMessage/%40161uzomr/?STEP1%20%E5%9F%BA%E7%A4%8E%E8%AC%9B%E7%BF%92%E5%8F%97%E8%AC%9B%E5%B8%8C%E6%9C%9B",
   step2Url: "https://line.me/R/oaMessage/%40161uzomr/?STEP2%20%E3%83%9E%E3%83%83%E3%82%B5%E3%83%BC%E3%82%B8%E8%AC%9B%E7%BF%92%E5%8F%97%E8%AC%9B%E5%B8%8C%E6%9C%9B",
   step3Url: "https://line.me/R/oaMessage/%40161uzomr/?STEP3%20%E3%83%91%E3%83%83%E3%82%AF%E8%AC%9B%E7%BF%92%E5%8F%97%E8%AC%9B%E5%B8%8C%E6%9C%9B",

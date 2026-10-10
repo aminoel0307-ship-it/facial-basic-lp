@@ -71,9 +71,8 @@
 
 - 「日本で培ったフェイシャル技術を、海外へ。」のセクションを設置
 - TENKU® Facialとして海外展開につながる内容として構成
-- 写真は現時点で未確定のため、プレースホルダー表示（`.overseas__photo-placeholder`）
-  - 実際の写真が用意され次第、`index.html` の該当箇所を差し替える
-  - 既存画像（他STEPや他LPの写真）を無理に流用しない
+- 写真は実画像へ差し替え済み（`assets/overseas/overseas-01-noemi-profile.webp`、`overseas-02-italy-announcement.webp`）
+  - 写真を変更する場合も、既存画像（他STEPや他LPの写真）を無理に流用しない
 
 ## 講師紹介
 

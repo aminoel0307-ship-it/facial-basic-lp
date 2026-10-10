@@ -23,8 +23,12 @@ URLを変更する場合は `js/config.js` の値のみを書き換えてくだ�
 
 ## 海外展開セクションの写真について
 
-現時点で写真が未確定のため、プレースホルダー表示にしています。写真が用意でき次第、
-`index.html` の `overseas__photo-frame` 内を `<img>` タグに差し替えてください。
+実画像へ差し替え済みです（`index.html` の `overseas__photo-frame` 内）。
+
+- `assets/overseas/overseas-01-noemi-profile.webp` - イタリア現地パートナー Noemi のプロフィール写真
+- `assets/overseas/overseas-02-italy-announcement.webp` - イタリア講習開催予定の告知画像
+
+写真を変更する場合は、上記ファイルの差し替え、または `<img>` タグの `src` / `alt` を書き換えてください。
 
 ## ローカル確認
 
