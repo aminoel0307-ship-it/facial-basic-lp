@@ -1343,3 +1343,17 @@ html[lang="en"] .hero__lead { text-wrap: balance; }
 html[lang="en"] .section__lead,
 html[lang="en"] .section__closing,
 html[lang="en"] .mid-cta__lead { text-wrap: balance; }
+
+/* 英語版：GMWBAの正式名称とリンク（受講料欄） */
+.gmwba-intro {
+  max-width: 560px;
+  margin: 0 auto 26px;
+  text-align: center;
+  font-size: 0.85rem;
+  line-height: 1.8;
+  color: var(--color-ink-soft);
+}
+.section--ivory .lang-link { color: var(--color-gold-deep); border-bottom-color: rgba(143, 111, 54, 0.5); }
+.section--ivory .lang-link:hover,
+.section--ivory .lang-link:focus-visible { color: var(--color-ink); }
+.gmwba-intro .lang-link { font-size: 0.85rem; }
