@@ -64,7 +64,10 @@
 - 言語サポートは確定事項として書かない：“Please contact us in advance regarding language support and training arrangements.”
 - 渡航：“Travel, accommodation, visa/entry requirements, and related expenses are the participant’s responsibility. Please check the latest entry requirements for Japan before traveling.”
 - 料金は円建て・税込（JPY）。会員価格は “GMWBA Member Rate” と表記し、値引き額は訴求しない
-- 正式な英文名称が確認できない法人名・団体名は英訳を作らず、日本語の正式表記のまま使う。ブランド表記は aminoel beauty academy／GMWBA
+- 英語版には日本語を1文字も残さない（講座名の補足・講師の肩書き・言語切替リンクも英語。日本語版へのリンクは「JP」「Japanese page」）
+- 講師の肩書きは英語で表記：Founder, Amy Salon Business Academy／Representative Director, aminoel／Representative Director, aminoel beauty academy／Representative Director, General Medical Wellness Beauty Association (GMWBA)
+- GMWBAの正式名称「General Medical Wellness Beauty Association (GMWBA)」はページ内で1回だけ（講師の肩書き）。以降は「GMWBA」と表記し、受講料欄に「Learn more about GMWBA」（https://gmwba.jp）のリンクを置く
+- 上記以外で正式な英文名称が確認できない法人名・団体名は英訳を作らない。ブランド表記は aminoel／aminoel beauty academy／GMWBA
 
 ## 重要ルール（表現）
 
