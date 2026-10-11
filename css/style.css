@@ -1357,3 +1357,20 @@ html[lang="en"] .mid-cta__lead { text-wrap: balance; }
 .section--ivory .lang-link:hover,
 .section--ivory .lang-link:focus-visible { color: var(--color-ink); }
 .gmwba-intro .lang-link { font-size: 0.85rem; }
+
+/* 英語版ヘッダー：日本語ページへの切替（Japanese / 日本語）をスマホでは2段表示 */
+html[lang="en"] .site-header__logo { white-space: nowrap; }
+@media (max-width: 768px) {
+  .site-header__lang--stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.72rem;
+    line-height: 1.35;
+    letter-spacing: 0;
+    border-bottom: none;
+    padding: 0;
+  }
+  .site-header__lang--stack span:last-child { border-bottom: 1px solid rgba(198, 161, 91, 0.5); }
+  .site-header__cta--wrap { max-width: 140px; padding: 6px 8px; font-size: 0.72rem; letter-spacing: 0.01em; }
+}
