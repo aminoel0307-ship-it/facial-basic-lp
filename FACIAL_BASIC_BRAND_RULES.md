@@ -47,6 +47,25 @@
 「フェイシャル機器を買っただけでは、フェイシャリストにはなれない。」
 機械の使い方より前に、お客様の肌に触れるための基礎を学ぶ。
 
+## ポジショニング（サロン実践フェイシャル講習）
+
+- 日本語版の核：「基礎を超えて、触れた瞬間に伝わるサロン技術へ。」
+- 英語版の核：“Knowing the steps is not enough.” ／ “Learn the touch clients can feel from the very first second.”
+- 「マニュアルを覚える講習」ではなく、「触れ方まで直接指導するサロン実践フェイシャル講習」として表現する
+- 美容学校・他スクール・美容機器を否定・批判・比較しない。「基礎は大切。そのうえでサロン現場では、その先の触れ方・密着・圧・身体の使い方・手技のつなぎが必要」という構造で表現する
+- 強調する技術：ファーストタッチ／手のひらの密着／圧の方向／身体の使い方／体重移動／手技と手技のつなぎ／手離れ／リズム／サロン現場で使える技術
+- 実技指導の表現：「講師がその場で、手の位置・密着・圧・角度・身体の使い方・手技のつなぎを確認し、必要に応じて手を添えながら直接修正します。」
+  英語版も demonstration だけでなく hands-on correction であることが伝わる表現にする
+
+## 英語版（en/）のルール
+
+- 問い合わせは日本語版と同じ公式LINE（`@161uzomr`）。ボタン文言は “Ask About Facial Training in Japan” または “International Facial Training Inquiry”、LINE送信文言は “International Facial Training Inquiry”
+- 開催地：“Training is held in Japan. Training location and schedule details will be provided during the consultation/application process.”（市区町村などは推測して書かない）
+- 言語サポートは確定事項として書かない：“Please contact us in advance regarding language support and training arrangements.”
+- 渡航：“Travel, accommodation, visa/entry requirements, and related expenses are the participant’s responsibility. Please check the latest entry requirements for Japan before traveling.”
+- 料金は円建て・税込（JPY）。会員価格は “GMWBA Member Rate” と表記し、値引き額は訴求しない
+- 正式な英文名称が確認できない法人名・団体名は英訳を作らず、日本語の正式表記のまま使う。ブランド表記は aminoel beauty academy／GMWBA
+
 ## 重要ルール（表現）
 
 - 「治療」「治る」など医療的な断定表現は使用しない

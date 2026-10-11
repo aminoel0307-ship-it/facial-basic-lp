@@ -3,7 +3,8 @@
 フェイシャル基礎・スキルアップ講習（STEP1〜STEP3、対面実技）の申込み増加を目的とした、
 独立ランディングページです。
 
-- 公開URL：https://aminoel0307-ship-it.github.io/facial-basic-lp/
+- 公開URL（日本語版）：https://aminoel0307-ship-it.github.io/facial-basic-lp/
+- 公開URL（英語版）：https://aminoel0307-ship-it.github.io/facial-basic-lp/en/
 - 公開方法：GitHub Pages（`main` ブランチへのpushで自動デプロイ）
 
 `amy-1p` / `tenku-sleep-lp` / `stress-relieve-lp` / `neck-shoulder-lp` とは完全に独立したプロジェクトで、
@@ -11,7 +12,8 @@
 
 ## 構成
 
-- `index.html` - LP本体
+- `index.html` - LP本体（日本語版）
+- `en/index.html` - 英語版LP（海外受講者向け。CSS・JS・写真・OGP画像は日本語版と共用）
 - `css/style.css` - スタイルシート（黒×アイボリー×ゴールド、スマートフォン最優先）
 - `js/config.js` - 申込み・相談先URLの一元管理（CTA種別ごとにLINEプリフィルメッセージを分離）
 - `js/script.js` - `js/config.js` のURLを各CTAボタンへ適用するスクリプト
@@ -22,27 +24,59 @@
 - `assets/overseas/` - 海外展開セクションの写真
 - `assets/ogp/` - SNSシェア用のOGP画像
 
-## ページ構成（上から順）
+## コンセプト
 
-1. ファーストビュー
+- 日本語版：基礎を超えて、触れた瞬間に伝わるサロン技術へ。
+- 英語版：Knowing the steps is not enough. ／ Learn the touch clients can feel from the very first second.
+- 「マニュアルを覚える講習」ではなく「触れ方まで直接指導するサロン実践フェイシャル講習」。
+  美容学校や他スクールを否定せず、「基礎のその先にあるサロン実践技術を教える」立ち位置で統一（詳細は `FACIAL_BASIC_BRAND_RULES.md`）。
+
+## ページ構成（日本語版・上から順）
+
+1. ファーストビュー（基礎を超えて、触れた瞬間に伝わるサロン技術へ。）
 2. こんな状態でサロンを始めようとしていませんか？（PROBLEM）
 3. 中間CTA A
-4. 機器を使えるだけでは、プロの施術にはなりません。（WHY BASIC MATTERS）
-5. 必要な技術から、段階的に学べる3STEP（3 STEP PROGRAM）
-6. STEP1 Facial Basic（フェイシャル基礎講習）
-7. STEP2 Facial Massage（フェイシャルマッサージ講習）
-8. 中間CTA B
-9. STEP3 Facial Pack & Mask（パック・特殊マスク講習）
-10. フェイシャル技術を、基礎から実践まで（TECHNIQUE：施術工程01〜09）
-11. こんな方におすすめです（RECOMMENDED FOR）
-12. 受講後、「なんとなく施術」から卒業する。（AFTER THE COURSE）
-13. 中間CTA C
-14. 講師紹介（INSTRUCTOR）
-15. 日本で培ったフェイシャル技術を、世界へ。（OVERSEAS）
-16. 受講料（PRICE）
-17. どのSTEPから受講すればいいか迷っている方へ（STEP選びのご相談）
-18. よくあるご質問（FAQ：10問）
-19. フェイシャル技術を、自己流のままにしない。（最終CTA）
+4. 基礎は大切。そのうえで、サロン現場で求められるもの。（BEYOND THE BASICS）
+5. 触れた瞬間に伝わる、9つのサロン技術（TOUCH TECHNIQUE）
+6. マニュアルを覚える講習ではなく、触れ方まで直接指導する講習。（HOW WE TEACH）
+7. 美容機器を導入しただけで、フェイシャルは完成していますか？（FOR DEVICE USERS）
+8. 機器を使えるだけでは、プロの施術にはなりません。（WHY BASIC MATTERS）
+9. 必要な技術から、段階的に学べる3STEP（3 STEP PROGRAM）
+10. STEP1 Facial Basic（フェイシャル基礎講習）
+11. STEP2 Facial Massage（フェイシャルマッサージ講習）
+12. 中間CTA B
+13. STEP3 Facial Pack & Mask（パック・特殊マスク講習）
+14. 手順の先にある「触れ方」まで、実践で学ぶ（TECHNIQUE：施術工程01〜09）
+15. こんな方におすすめです（RECOMMENDED FOR）
+16. 受講後、「なんとなく施術」から卒業する。（AFTER THE COURSE）
+17. 中間CTA C
+18. 講師紹介＋Amyからのメッセージ（INSTRUCTOR）
+19. 日本で培ったフェイシャル技術を、世界へ。（OVERSEAS・英語版への導線）
+20. 受講料（PRICE）
+21. どのSTEPから受講すればいいか迷っている方へ（STEP選びのご相談）
+22. よくあるご質問（FAQ：13問）
+23. 基礎を超えて、触れた瞬間に伝わるサロン技術へ。（最終CTA）
+
+## ページ構成（英語版・上から順）
+
+1. Hero（Knowing the steps is not enough.）
+2. Why Japan（Travel to Japan／Learn directly from Amy／Japanese salon technique／International students welcome）
+3. Beyond the Basics
+4. For Device Users
+5. The Touch（9 salon techniques）
+6. How We Teach（hands-on correction）
+7. 3-Step Program と STEP 1〜3 の学べる内容
+8. Technique（施術工程01〜09）
+9. Who It's For
+10. 中間CTA
+11. Your Instructor＋A Message from Amy
+12. Going Global（Italy 2027）
+13. Course Fees（JPY・税込、GMWBA Member Rate）
+14. Training in Japan（開催地・言語サポート・渡航）
+15. FAQ（9問）
+16. Final CTA
+
+日本語版のヘッダー「EN」・海外展開セクション・FAQから英語版へ、英語版のヘッダー「日本語」・フッターから日本語版へ移動できます。
 
 ## 受講料
 
@@ -69,6 +103,7 @@ Neck & Shoulder LPと同じ公式LINE（`@161uzomr`）を使用しています�
 | `.js-cta-step1` | STEP1 基礎講習に申し込む／STEP1を受講する | STEP1 基礎講習受講希望 |
 | `.js-cta-step2` | STEP2 マッサージ講習に申し込む／STEP2を受講する | STEP2 マッサージ講習受講希望 |
 | `.js-cta-step3` | STEP3 パック講習に申し込む／STEP3を受講する | STEP3 パック講習受講希望 |
+| `.js-cta-intl`（英語版） | Ask About Facial Training in Japan／International Facial Training Inquiry | International Facial Training Inquiry |
 
 - URLを変更する場合は `js/config.js` の値のみを書き換えてください（各ボタンへ自動反映、新しいタブで開きます）。
 - GMWBA関連リンク（公式サイト `https://gmwba.jp`、入会・お問い合わせLINE `https://lin.ee/LNtKbCK`）は
@@ -76,7 +111,9 @@ Neck & Shoulder LPと同じ公式LINE（`@161uzomr`）を使用しています�
 
 ## SEO・SNSシェア設定
 
-- `canonical` / `og:url`：`https://aminoel0307-ship-it.github.io/facial-basic-lp/`
+- `canonical` / `og:url`：日本語版 `https://aminoel0307-ship-it.github.io/facial-basic-lp/`、英語版 `…/facial-basic-lp/en/`
+- `hreflang`：日本語版と英語版を相互に関連付け（x-default は日本語版）
+- OGP画像は日本語版・英語版で同じ既存画像を使用
 - `og:title` / `og:description`：`<title>` と `meta description` と同じ文言
 - `twitter:card`：`summary_large_image`
 
@@ -117,7 +154,7 @@ Neck & Shoulder LPと同じ公式LINE（`@161uzomr`）を使用しています�
 ## 更新・公開の流れ
 
 1. `main` ブランチで修正する
-2. ローカルでスマートフォン幅（390px）の表示を確認する
+2. ローカルでスマートフォン幅（390px）の表示を、日本語版・英語版の両方で確認する
 3. `main` へpushすると GitHub Pages（pages build and deployment）が自動で公開する
 
 ## ローカル確認

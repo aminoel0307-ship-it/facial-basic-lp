@@ -1146,3 +1146,200 @@ main { padding-top: 56px; }
   margin: 0 0 12px;
 }
 .site-footer__note { margin: 12px 0 0; line-height: 1.8; }
+
+/* ==========================================================================
+   サロン実践フェイシャル講習（触れ方の直接指導）関連セクション
+   ========================================================================== */
+
+/* ---------- Header: 言語切替 ---------- */
+.site-header__actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.site-header__lang {
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  color: var(--color-gold-light);
+  border-bottom: 1px solid rgba(198, 161, 91, 0.5);
+  padding: 4px 0 2px;
+  white-space: nowrap;
+}
+.site-header__lang:hover,
+.site-header__lang:focus-visible { color: var(--color-white); }
+
+/* ---------- PROBLEM 導入文 ---------- */
+.problem-intro {
+  font-family: var(--font-serif);
+  font-size: clamp(1rem, 3.4vw, 1.15rem);
+  line-height: 1.8;
+  color: var(--color-gold-light);
+  margin: 0 0 14px;
+}
+
+/* ---------- 締めの強調文 ---------- */
+.section__closing {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: clamp(1.02rem, 3.4vw, 1.2rem);
+  line-height: 1.8;
+  margin: 32px 0 0;
+  text-align: center;
+}
+.section--dark .section__closing,
+.section--dark-2 .section__closing { color: var(--color-gold-light); }
+.section--ivory .section__closing { color: var(--color-ink); }
+
+/* ---------- 2列の対比（基礎／その先） ---------- */
+.biz-grid--two { margin: 28px 0 0; }
+@media (min-width: 640px) {
+  .biz-grid--two { grid-template-columns: 1fr 1fr; }
+}
+.biz-card--accent {
+  border-color: var(--color-gold);
+  box-shadow: inset 3px 0 0 var(--color-gold);
+}
+
+/* ---------- 9つの技術カード ---------- */
+.touch-grid { margin-top: 28px; }
+@media (min-width: 900px) {
+  .touch-grid { grid-template-columns: repeat(3, 1fr); }
+}
+.benefit-card__num {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  color: var(--color-gold);
+  margin: 0 0 6px;
+}
+
+/* ---------- 指導の3ステップ ---------- */
+.teach-steps {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin: 28px 0 0;
+}
+@media (min-width: 769px) {
+  .teach-steps { grid-template-columns: repeat(3, 1fr); }
+}
+.teach-step {
+  padding: 22px 20px;
+  border: 1px solid rgba(143, 111, 54, 0.25);
+  border-top: 2px solid var(--color-gold);
+  background: var(--color-white);
+}
+.teach-step__num {
+  font-family: var(--font-serif);
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  color: var(--color-gold-deep);
+  margin: 0 0 6px;
+}
+.teach-step__title {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 1.08rem;
+  color: var(--color-ink);
+  margin: 0 0 8px;
+}
+.teach-step__text {
+  font-size: 0.9rem;
+  line-height: 1.85;
+  color: var(--color-ink-soft);
+  margin: 0;
+}
+
+/* ---------- 美容機器セクション：要素の縦並び ---------- */
+.device-words {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin: 28px 0;
+  padding: 22px 16px;
+  border-top: 1px solid rgba(198, 161, 91, 0.3);
+  border-bottom: 1px solid rgba(198, 161, 91, 0.3);
+}
+.device-words li {
+  font-family: var(--font-serif);
+  font-size: clamp(1rem, 3.4vw, 1.12rem);
+  line-height: 1.8;
+  color: var(--color-gold-light);
+  text-align: center;
+}
+
+/* ---------- Amyからのメッセージ ---------- */
+.message {
+  margin: 40px 0 0;
+  padding: 28px 22px;
+  border: 1px solid rgba(198, 161, 91, 0.4);
+  background: rgba(198, 161, 91, 0.06);
+}
+@media (min-width: 769px) {
+  .message { padding: 36px 40px; }
+}
+.message__label {
+  font-size: 0.76rem;
+  letter-spacing: 0.18em;
+  color: var(--color-gold);
+  margin: 0 0 16px;
+}
+.message__text {
+  font-family: var(--font-serif);
+  font-size: clamp(0.98rem, 3.2vw, 1.08rem);
+  line-height: 2;
+  color: var(--color-ivory);
+  margin: 0 0 16px;
+}
+.message__sign {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  color: var(--color-gold-light);
+  margin: 8px 0 0;
+  text-align: right;
+}
+
+/* ---------- 言語ページへのリンク ---------- */
+.lang-link {
+  display: inline-block;
+  align-self: flex-start;
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+  color: var(--color-gold-light);
+  border-bottom: 1px solid rgba(198, 161, 91, 0.6);
+  padding-bottom: 2px;
+}
+.lang-link:hover,
+.lang-link:focus-visible { color: var(--color-white); }
+
+/* ---------- 英語版：4項目の特長／長いヘッダーボタン ---------- */
+@media (min-width: 640px) {
+  .teach-steps--four { grid-template-columns: 1fr 1fr; }
+}
+@media (min-width: 1000px) {
+  .teach-steps--four { grid-template-columns: repeat(4, 1fr); }
+}
+.site-header__cta--wrap {
+  white-space: normal;
+  max-width: 170px;
+  line-height: 1.35;
+  padding: 6px 12px;
+  font-size: 0.72rem;
+}
+@media (min-width: 769px) {
+  .site-header__cta--wrap { max-width: none; white-space: nowrap; font-size: 0.78rem; padding: 10px 18px; }
+}
+/* 英語版：見出しの末尾1語だけが次の行に残らないよう行の長さをそろえる */
+html[lang="en"] h1,
+html[lang="en"] h2,
+html[lang="en"] h3 { text-wrap: balance; }
+html[lang="en"] .hero__lead { text-wrap: balance; }
+@media (max-width: 768px) {
+  .site-header__actions { gap: 10px; }
+  .site-header__cta--wrap { max-width: 150px; }
+}
+html[lang="en"] .section__lead,
+html[lang="en"] .section__closing,
+html[lang="en"] .mid-cta__lead { text-wrap: balance; }

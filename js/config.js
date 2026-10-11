@@ -11,6 +11,7 @@
  * - step1Url:   STEP1（Facial Basic）専用CTA（.js-cta-step1）
  * - step2Url:   STEP2（Facial Massage）専用CTA（.js-cta-step2）
  * - step3Url:   STEP3（Facial Pack & Mask）専用CTA（.js-cta-step3）
+ * - intlUrl:    英語版（en/）の問い合わせCTA（.js-cta-intl）専用。送信文言「International Facial Training Inquiry」
  * - gmwbaInfoUrl / gmwbaJoinUrl: GMWBA関連リンク（通常のリンクとして直接設定、CTAクラスは使用しない）
  *
  * URLを変更する場合は、下記の値だけを書き換えてください。対象のCTAボタンに自動で反映されます（新しいタブで開きます）。
@@ -22,6 +23,7 @@ window.SITE_CONFIG = {
   step1Url: "https://line.me/R/oaMessage/%40161uzomr/?STEP1%20%E5%9F%BA%E7%A4%8E%E8%AC%9B%E7%BF%92%E5%8F%97%E8%AC%9B%E5%B8%8C%E6%9C%9B",
   step2Url: "https://line.me/R/oaMessage/%40161uzomr/?STEP2%20%E3%83%9E%E3%83%83%E3%82%B5%E3%83%BC%E3%82%B8%E8%AC%9B%E7%BF%92%E5%8F%97%E8%AC%9B%E5%B8%8C%E6%9C%9B",
   step3Url: "https://line.me/R/oaMessage/%40161uzomr/?STEP3%20%E3%83%91%E3%83%83%E3%82%AF%E8%AC%9B%E7%BF%92%E5%8F%97%E8%AC%9B%E5%B8%8C%E6%9C%9B",
+  intlUrl: "https://line.me/R/oaMessage/%40161uzomr/?International%20Facial%20Training%20Inquiry",
   gmwbaInfoUrl: "https://gmwba.jp",
   gmwbaJoinUrl: "https://lin.ee/LNtKbCK"
 };

@@ -18,7 +18,8 @@
       "js-cta-consult": cfg.consultUrl || fallback,
       "js-cta-step1": cfg.step1Url || fallback,
       "js-cta-step2": cfg.step2Url || fallback,
-      "js-cta-step3": cfg.step3Url || fallback
+      "js-cta-step3": cfg.step3Url || fallback,
+      "js-cta-intl": cfg.intlUrl || fallback
     };
 
     Object.keys(ctaMap).forEach(function (cls) {
